@@ -1,0 +1,14 @@
+.notify {
+  position: fixed;
+  opacity: .9;
+  top: -100px;
+  right: 20px;
+  -webkit-transition: top 2s, opacity 2s;
+  transition: top 2s, opacity 2s;
+}
+.notify--enter {
+  top: 20px;
+}
+.notify--leave {
+  opacity: .0;
+}
